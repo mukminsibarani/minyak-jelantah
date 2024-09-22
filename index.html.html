@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="id"> <!-- Menentukan tipe dokumen HTML dan bahasa yang digunakan -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Mengatur karakter encoding untuk dokumen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mengatur tampilan responsif di perangkat mobile -->
+    <meta name="description" content="Jual minyak jelantah dengan mudah dan dapatkan penghasilan tambahan. Kami siap menerima minyak bekas Anda untuk didaur ulang."> <!-- Deskripsi halaman untuk SEO -->
+    <meta name="keywords" content="jual minyak jelantah, pengumpulan minyak jelantah, daur ulang minyak jelantah, harga minyak jelantah, jual minyak bekas, beli minyak jelantah"> <!-- Kata kunci untuk SEO -->
+    <meta name="author" content="Nama Perusahaan Anda"> <!-- Nama penulis halaman -->
+    <meta name="robots" content="index, follow"> <!-- Petunjuk untuk mesin pencari tentang pengindeksan halaman -->
+    <meta property="og:title" content="Jual Minyak Jelantah - Pengumpulan Minyak Jelantah untuk Penghasilan Tambahan"> <!-- Judul untuk media sosial -->
+    <meta property="og:description" content="Jual minyak jelantah dengan mudah dan aman. Kami menawarkan harga terbaik untuk minyak bekas Anda. Hubungi kami sekarang untuk transaksi mudah."> <!-- Deskripsi untuk media sosial -->
+    <meta property="og:image" content="url_to_image.jpg"> <!-- Gambar yang ditampilkan saat dibagikan di media sosial -->
+    <meta property="og:url" content="https://www.contohurl.com"> <!-- URL halaman -->
+    <meta property="og:type" content="website"> <!-- Tipe konten -->
+    <title>Skrip2nd pake komen lp minyak jelantah</title> <!-- Judul halaman yang muncul di tab browser -->
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0; /* Mengatur margin semua elemen menjadi 0 */
+            padding: 0; /* Mengatur padding semua elemen menjadi 0 */
+            box-sizing: border-box; /* Mengatur model box menjadi border-box */
+        }
+
+        body {
+            font-family: Arial, sans-serif; /* Mengatur jenis font halaman */
+            color: #333; /* Mengatur warna teks */
+            background-color: #f4f4f4; /* Mengatur warna latar belakang */
+        }
+
+        a {
+            text-decoration: none; /* Menghapus garis bawah pada tautan */
+            color: #fff; /* Mengatur warna tautan menjadi putih */
+        }
+
+        ul {
+            list-style-type: none; /* Menghapus bullet pada daftar */
+        }
+
+        /* Container */
+        .container {
+            width: 90%; /* Mengatur lebar kontainer menjadi 90% dari lebar layar */
+            max-width: 1200px; /* Lebar maksimum kontainer */
+            margin: auto; /* Mengatur margin otomatis untuk pusat kontainer */
+        }
+
+        /* Header */
+        header {
+            background-color: #004080; /* Mengatur warna latar belakang header */
+            color: white; /* Mengatur warna teks header menjadi putih */
+            padding: 15px 0; /* Mengatur padding vertikal header */
+            display: flex; /* Menggunakan flexbox untuk tata letak header */
+            justify-content: space-between; /* Menyebarkan ruang antara elemen header */
+            align-items: center; /* Menyelaraskan elemen secara vertikal */
+            position: sticky; /* Membuat header tetap di atas saat menggulir */
+            top: 0; /* Mengatur posisi sticky di bagian atas */
+            z-index: 999; /* Mengatur z-index agar header tetap di atas elemen lain */
+        }
+
+        .logo img {
+            max-height: 60px; /* Mengatur tinggi maksimum gambar logo */
+        }
+
+        nav {
+            flex-grow: 1; /* Membuat navigasi tumbuh untuk mengisi ruang */
+            text-align: right; /* Menyelaraskan teks navigasi ke kanan */
+        }
+
+        nav ul {
+            display: flex; /* Menggunakan flexbox untuk tata letak daftar navigasi */
+            justify-content: flex-end; /* Menyelaraskan item daftar ke kanan */
+            gap: 20px; /* Memberikan jarak antara item daftar */
+        }
+
+        nav ul li {
+            margin: 0; /* Menghapus margin untuk item daftar */
+        }
+
+        nav ul li a {
+            font-weight: bold; /* Mengatur teks tautan menjadi tebal */
+            padding: 5px 10px; /* Mengatur padding untuk tautan */
+            color: white; /* Mengatur warna tautan menjadi putih */
+            transition: background 0.3s ease; /* Mengatur transisi latar belakang saat hover */
+        }
+
+        nav ul li a:hover {
+            background-color: #FFD700; /* Mengatur latar belakang menjadi emas saat hover */
+            color: #333; /* Mengatur warna teks menjadi gelap saat hover */
+            border-radius: 5px; /* Mengatur sudut melingkar untuk tautan saat hover */
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #FFFF00; /* Mengatur warna latar belakang hero section */
+            color: Midnight Blue; /* Mengatur warna teks menjadi Midnight Blue */
+            height: 100vh; /* Mengatur tinggi hero section menjadi 100% dari tinggi viewport */
+            display: flex; /* Menggunakan flexbox untuk tata letak hero */
+            flex-direction: column; /* Mengatur arah flex menjadi kolom */
+            justify-content: center; /* Menyelaraskan konten secara vertikal di tengah */
+            align-items: center; /* Menyelaraskan konten secara horizontal di tengah */
+            text-align: center; /* Mengatur teks menjadi rata tengah */
+            padding: 0 20px; /* Mengatur padding horizontal */
+			border: 2px solid #004080; /* Bingkai dengan warna biru tua */
+			border-radius: 10px; /* Sudut melingkar */
+			padding: 20px; /* Ruang di dalam bingkai */
+        }
+
+        .hero h1 {
+            font-size: 3rem; /* Mengatur ukuran font untuk h1 */
+            margin-bottom: 20px; /* Mengatur margin bawah untuk h1 */
+        }
+
+        .hero p {
+            font-size: 1.2rem; /* Mengatur ukuran font untuk paragraf */
+            margin-bottom: 30px; /* Mengatur margin bawah untuk paragraf */
+        }
+
+        /* Form Section in Hero */
+        .hero form {
+            margin-top: 30px; /* Mengatur margin atas untuk form */
+            width: 100%; /* Mengatur lebar form menjadi 100% */
+            max-width: 500px; /* Lebar maksimum form */
+        }
+
+        .hero form div {
+            display: flex; /* Menggunakan flexbox untuk tata letak input */
+            justify-content: space-between; /* Menyebarkan ruang antara label dan input */
+            align-items: center; /* Menyelaraskan elemen secara vertikal */
+            margin-bottom: 15px; /* Mengatur margin bawah untuk div input */
+        }
+
+        .hero form label {
+            flex-basis: 30%; /* Mengatur lebar label menjadi 30% */
+        }
+
+        .hero form input {
+            padding: 10px; /* Mengatur padding untuk input */
+            flex-basis: 65%; /* Mengatur lebar input menjadi 65% */
+            border: 1px solid #ccc; /* Mengatur border untuk input */
+            border-radius: 5px; /* Mengatur sudut melingkar untuk input */
+        }
+
+        .hero form button {
+            background-color: #228B22; /* Mengatur warna latar belakang tombol */
+            color: yellow; /* Mengatur warna teks tombol menjadi putih */
+            padding: 10px 30px; /* Mengatur padding untuk tombol */
+            font-size: 1.2rem; /* Mengatur ukuran font untuk tombol */
+            border: none; /* Menghapus border untuk tombol */
+            border-radius: 5px; /* Mengatur sudut melingkar untuk tombol */
+            cursor: pointer; /* Mengubah kursor saat hover di tombol */
+            transition: background 0.3s ease; /* Mengatur transisi latar belakang saat hover */
+        }
+
+        .hero form button:hover {
+            background-color: #003366; /* Mengatur latar belakang menjadi biru gelap saat hover */
+        }
+
+        /* Section */
+        section {
+            padding: 60px 0; /* Mengatur padding vertikal untuk section */
+        }
+
+        section h2 {
+            text-align: center; /* Menyelaraskan h2 menjadi rata tengah */
+            margin-bottom: 20px; /* Mengatur margin bawah untuk h2 */
+            color: #004080; /* Mengatur warna teks h2 menjadi biru tua */
+			
+        }
+
+        /* Mengapa Jual Minyak Jelantah */
+        .why-sell {
+            background-color: #44f6e0; /* Mengatur warna latar belakang untuk section mengapa menjual */
+			color: dark blue; /* Mengatur warna teks tombol biru gelap */
+			border: 2px solid #004080; /* Bingkai dengan warna biru tua */
+			border-radius: 10px; /* Sudut melingkar */
+			padding: 20px; /* Ruang di dalam bingkai */
+        }
+
+        .why-sell p {
+            text-align: center; /* Menyelaraskan paragraf menjadi rata tengah */
+            margin-bottom: 20px; /* Mengatur margin bawah untuk paragraf */
+            font-size: 1.1rem; /* Mengatur ukuran font untuk paragraf */
+			
+        }
+
+        .why-sell ul {
+			background-color: #b4c7f5; /* Mengatur warna latar belakang untuk langkah */
+            display: flex; /* Menggunakan flexbox untuk tata letak daftar */
+            justify-content: space-around; /* Menyebarkan ruang antara item daftar */
+            max-width: 800px; /* Lebar maksimum daftar */
+            margin: 0 auto; /* Mengatur margin otomatis untuk pusat daftar */
+            padding: 0; /* Menghapus padding untuk daftar */
+			border: 2px solid #004080; /* Bingkai dengan warna biru tua */
+			border-radius: 10px; /* Sudut melingkar */
+			padding: 20px; /* Ruang di dalam bingkai */
+        }
+
+        .why-sell ul li {
+            flex-basis: 30%; /* Mengatur lebar item daftar menjadi 30% */
+            text-align: center; /* Menyelaraskan teks item daftar menjadi rata tengah */
+        }
+
+        /* How it Works */
+		.how-it-works {
+			border: 2px solid #004080; /* 2px ukuran tebal bingkai,dan warna bingkai */
+			background-color: #b4c7f5; /* Mengatur warna latar belakang untuk langkah */
+			border-radius: 10px; /* Sudut melingkar */
+			padding: 50px; /* Ruang di dalam bingkai */
+			margin: 0px auto; /* Ruang di luar section untuk memisahkan dari elemen lain */
+			max-width: 1000px; /* Lebar maksimum section */
+			
+		}
+        .how-it-works .steps {
+			
+            display: grid; /* Menggunakan grid untuk tata letak langkah-langkah */			
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Mengatur kolom grid secara responsif */
+            gap: 20px; /* Memberikan jarak antara langkah-langkah */
+            max-width: 2000px; /* Lebar maksimum langkah-langkah */
+            margin: 0 auto; /* Mengatur margin otomatis untuk pusat langkah-langkah */	
+        }
+
+        .how-it-works .step {
+            background-color: #FFFF00; /* Mengatur warna latar belakang untuk langkah */
+            padding: 90px; /* Mengatur padding untuk langkah */
+            border-radius: 8px; /* Mengatur sudut melingkar untuk langkah */
+			border: 2px solid #004080; /* Bingkai dengan warna biru tua */
+			border-radius: 10px; /* Sudut melingkar */
+			padding: 20px; /* Ruang di dalam bingkai */
+        }
+		/* Button Styles */
+.button {
+    display: inline-block;
+    background-color: #228B22; /* Warna latar belakang tombol */
+    color: white; /* Warna teks */
+    padding: 10px 20px; /* Padding untuk tombol */
+    border-radius: 5px; /* Sudut melingkar */
+    margin-top: 20px; /* Margin atas */
+    text-decoration: none; /* Menghapus garis bawah pada tombol */
+    text-align: center; /* Menyelaraskan teks */
+    font-weight: bold; /* Teks tebal */
+    font-size: 1.2rem; /* Ukuran font */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transisi untuk hover */
+}
+
+.button:hover {
+    background-color: #003366; /* Warna latar belakang saat hover */
+    transform: scale(1.05); /* Efek membesar saat hover */
+}
+        
+
+        /* Footer */
+        footer {
+            background-color: #333; /* Mengatur warna latar belakang footer */
+            color: white; /* Mengatur warna teks footer menjadi putih */
+            text-align: center; /* Menyelaraskan teks footer menjadi rata tengah */
+            padding: 20px 0; /* Mengatur padding vertikal untuk footer */
+			border: 2px solid #004080; /* Bingkai dengan warna biru tua */
+			border-radius: 10px; /* Sudut melingkar */
+			padding: 20px; /* Ruang di dalam bingkai */
+        }
+
+        footer ul {
+            display: flex; /* Menggunakan flexbox untuk tata letak daftar di footer */
+            justify-content: center; /* Menyebarkan ruang antara item daftar di footer */
+            gap: 15px; /* Memberikan jarak antara item daftar di footer */
+            margin-bottom: 10px; /* Mengatur margin bawah untuk daftar di footer */
+            padding: 0; /* Menghapus padding untuk daftar di footer */
+        }
+
+        footer ul li {
+            margin: 0; /* Menghapus margin untuk item daftar di footer */
+        }
+
+        footer ul li a {
+            color: white; /* Mengatur warna tautan di footer menjadi putih */
+            font-weight: bold; /* Mengatur teks tautan di footer menjadi tebal */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- Tempat untuk logo perusahaan -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li> <!-- Tautan ke bagian Home -->
+                    <li><a href="#about">Tentang</a></li> <!-- Tautan ke bagian Tentang -->
+                    <li><a href="#how-it-works">Cara Kerja</a></li> <!-- Tautan ke bagian Cara Kerja -->
+                    <li><a href="#contact">Kontak</a></li> <!-- Tautan ke bagian Kontak -->
+                </ul>
+            </nav>
+        </div>
+		<head>
+    <!-- Meta Tags for Facebook Open Graph -->
+    <meta property="og:title" content="Judul Halaman Anda" />
+    <meta property="og:description" content="Deskripsi singkat tentang halaman Anda." />
+    <meta property="og:image" content="URL ke gambar yang ingin ditampilkan." />
+    <meta property="og:url" content="URL Halaman Anda" />
+    <meta property="og:type" content="website" />
+</head>
+		<!-- Tambahkan Facebook Share Button -->
+<a href="https://www.facebook.com/sharer/sharer.php?u=URL_HALAMAN_ANDA" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Facebook_Logo_2019.png" alt="Share on Facebook" style="width:50px; height:50px;">
+</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Jadikan minyak jelantah Anda menjadi bernilai Ekonomis</h1> <!-- Judul utama hero section -->
+            <p>Jual minyak jelantah Anda kepada kami, dibayar tunai atau boleh ditukarkan dengan kepingan emas murni. Kami siap mengambil minyak bekas (jelantah) Anda untuk diolah menjadi Bio Solar.</p> <!-- Deskripsi hero section -->
+            <h1>Saya punya minyak jelantah</h1> <!-- Judul tambahan -->
+            <!-- Form Section -->
+            <form action="submit_form.php" method="post"> <!-- Form untuk mengumpulkan informasi -->
+                <div>
+                    <label for="oil-quantity">Kira-kira ada (Liter):</label> <!-- Label untuk jumlah minyak -->
+                    <input type="number" id="oil-quantity" name="oil-quantity" required> <!-- Input untuk jumlah minyak -->
+                </div>
+                <div>
+                    <label for="location">Lokasi saya di:</label> <!-- Label untuk lokasi -->
+                    <input type="text" id="location" name="location" required> <!-- Input untuk lokasi -->
+                </div> 
+                <div>
+                    <label for="name">Nama saya:</label> <!-- Label untuk nama -->
+                    <input type="text" id="name" name="name" required> <!-- Input untuk nama -->
+                </div>
+                <button type="button" id="send-whatsapp">Berapa harganya?</button> <!-- Tombol untuk mengirim pesan ke WhatsApp -->
+            </form>
+        </div>
+    </section>
+    <!-- Mengapa Jual Minyak Jelantah -->
+    <section id="about" class="why-sell">
+        <div class="container">
+            <h2>Mengapa menjual minyak jelantah kepada kami?</h2> <!-- Judul section mengapa menjual -->
+            <p>Minyak jelantah yang dibuang sembarangan dapat mencemari lingkungan. Dengan mengumpulkan dan menjual minyak jelantah kepada kami, Anda membantu menjaga lingkungan dan mendapatkan penghasilan tambahan.</p> <!-- Deskripsi tentang manfaat menjual -->
+            <ul>
+                <li>1. Harga minyak jelantah yang kompetitif</li> <!-- Poin pertama -->
+                <li>2. Terukur jelas dengan menggunakan literan atau timbangan</li> <!-- Poin kedua -->
+                <li>3. Proses mudah dan cepat</li> <!-- Poin ketiga -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Cara Kerja -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>Bagaimana cara mengumpulkan dan menjual minyak jelantah? Ingat minyak jelantah jangan digunakan secara berulang lebih dari 3x karena dapat mengakibatkan penyakit kanker. Jangan juga dibuang sembarangan! </h2> <!-- Judul section cara kerja -->
+            <div class="steps">
+                <div class="step">
+                    <h3>1. Kumpulkan Minyak Jelantah</h3> <!-- Langkah pertama -->
+                    <p>Kumpulkan minyak jelantah di rumah dalam wadah tertutup.</p> <!-- Deskripsi langkah pertama -->
+                </div>
+                <div class="step">
+                    <h3>2. Hubungi Kami</h3> <!-- Langkah kedua -->
+                    <p>Hubungi tim kami untuk pengambilan atau antarkan ke lokasi terdekat.</p> <!-- Deskripsi langkah kedua -->
+                </div>
+                <div class="step">
+                    <h3>3. Terima Pembayaran</h3> <!-- Langkah ketiga -->
+                    <p>Dapatkan pembayaran langsung sesuai jumlah minyak yang Anda jual.</p> <!-- Deskripsi langkah ketiga -->
+                </div>
+				
+				<!-- Tambahkan tombol ini -->
+				<a href="#home" class="button btn-primary">Saya mau jual bagaimana caranya?</a>
+				
+            </div>
+        </div>
+    </section>    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Facebook</a></li> <!-- Tautan ke Facebook -->
+                <li><a href="#">Instagram</a></li> <!-- Tautan ke Instagram -->
+                <li><a href="#">Twitter</a></li> <!-- Tautan ke Twitter -->
+            </ul>
+            <p>Copyright © 2024 Nama Perusahaan Anda. All rights reserved.</p> <!-- Hak cipta -->
+        </div>
+    </footer>
+    <!-- JavaScript untuk Kirim ke WhatsApp -->
+    <script>
+        // Function untuk mengirim pesan ke WhatsApp ketika tombol diklik
+        document.getElementById("send-whatsapp").addEventListener("click", function() { // Menambahkan event listener untuk tombol
+            // Ambil nilai dari input form
+            var oilQuantity = document.getElementById("oil-quantity").value; // Mengambil nilai jumlah minyak
+            var location = document.getElementById("location").value; // Mengambil nilai lokasi
+            var name = document.getElementById("name").value; // Mengambil nilai nama
+
+            // Format pesan WhatsApp
+            var whatsappMessage = "Assalamu alaikum, Saya mau menjual minyak jelantah.Harga berapa?" + 
+                                  "%0AJumlah Minyak: " + oilQuantity + " liter" + // Menambahkan jumlah minyak ke pesan
+                                  "%0ALokasi: " + location + // Menambahkan lokasi ke pesan
+                                  "%0A%0ANama: " + name; // Menambahkan nama ke pesan
+                                
+            // Buat URL WhatsApp
+            var whatsappURL = "https://wa.me/6281399352347?text=" + whatsappMessage; // Membuat URL WhatsApp dengan pesan
+
+            // Redirect ke URL WhatsApp
+            window.open(whatsappURL, "_blank"); // Membuka URL WhatsApp di tab baru
+        });
+    </script>
+	</body>
+</html>
+
